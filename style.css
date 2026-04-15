@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+body {
+    font-family: Arial;
+    background: #ffe6f0;
+}
+
+.container {
+    width: 320px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff0f5;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3{
+      font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #d63384;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ffb6c1;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra los botones */
+    gap: 10px; /* espacio uniforme */
+    margin-top: 10px;
+}
+
+.botones button {
+    width: 80%; /* mismo tamaño todos */
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #ff85a2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botones button:hover {
+    background: #ff5c8a;
+}
+
+#resultado {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Estilos por tipo */
+.exito {
+    background: #ffd6e7;
+    color: #a61e4d;
+}
+
+.error {
+    background: #ffc9c9;
+    color: #c92a2a;
+}
+
+.advertencia {
+    background: #ffe066;
+    color: #7a5c00;
+}
+
+ul {
+    text-align: left;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    width: 80%;          /* ya no 100% */
+    display: block;
+    margin: 8px auto;    /* centra horizontalmente */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffb6c1;
+    text-align: center;  /* centra el texto */
+}
